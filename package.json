@@ -1,0 +1,19 @@
+{
+  "name": "rasoi-express",
+  "version": "1.1.0",
+  "description": "Rasoi Express food delivery site with SQLite database (Node.js built-in node:sqlite) and CRUD API",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.5",
+    "express": "^4.19.2",
+    "nodemailer": "^10.0.14",
+    "twilio": "^6.1.2"
+  }
+}

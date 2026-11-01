@@ -1,0 +1,42 @@
+[
+  {
+    "id": "starters",
+    "name": "Starters",
+    "icon": "bi-egg-fried"
+  },
+  {
+    "id": "main",
+    "name": "Main Course",
+    "icon": "bi-fire"
+  },
+  {
+    "id": "biryani",
+    "name": "Rice & Biryani",
+    "icon": "bi-basket2-fill"
+  },
+  {
+    "id": "breads",
+    "name": "Breads",
+    "icon": "bi-circle-fill"
+  },
+  {
+    "id": "chinese",
+    "name": "Indo-Chinese",
+    "icon": "bi-egg"
+  },
+  {
+    "id": "beverages",
+    "name": "Beverages",
+    "icon": "bi-cup-straw"
+  },
+  {
+    "id": "desserts",
+    "name": "Desserts",
+    "icon": "bi-cake2-fill"
+  },
+  {
+    "id": "combos",
+    "name": "Combos",
+    "icon": "bi-box2-heart-fill"
+  }
+]

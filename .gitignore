@@ -1,0 +1,5 @@
+node_modules/
+db/rasoi.db
+db/rasoi.db-shm
+db/rasoi.db-wal
+.env

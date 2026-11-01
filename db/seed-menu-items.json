@@ -1,0 +1,443 @@
+[
+  {
+    "id": 1,
+    "name": "Amritsari Paneer Tikka",
+    "category": "starters",
+    "veg": true,
+    "price": 249,
+    "rating": 4.6,
+    "desc": "Cottage cheese cubes marinated in yogurt & spices, char-grilled in the tandoor."
+  },
+  {
+    "id": 2,
+    "name": "Chicken Seekh Kebab",
+    "category": "starters",
+    "veg": false,
+    "price": 289,
+    "rating": 4.7,
+    "desc": "Minced chicken skewers with hand-ground spices, smoked over charcoal."
+  },
+  {
+    "id": 3,
+    "name": "Veg Samosa (2 pc)",
+    "category": "starters",
+    "veg": true,
+    "price": 79,
+    "rating": 4.4,
+    "desc": "Crisp pastry filled with spiced potatoes & peas, served with mint chutney."
+  },
+  {
+    "id": 4,
+    "name": "Butter Chicken",
+    "category": "main",
+    "veg": false,
+    "price": 349,
+    "rating": 4.9,
+    "desc": "Tandoori chicken simmered in a velvety tomato-butter gravy. A house favourite."
+  },
+  {
+    "id": 5,
+    "name": "Paneer Butter Masala",
+    "category": "main",
+    "veg": true,
+    "price": 299,
+    "rating": 4.7,
+    "desc": "Fresh paneer cubes in a rich, mildly-spiced tomato & cashew gravy."
+  },
+  {
+    "id": 6,
+    "name": "Dal Makhani",
+    "category": "main",
+    "veg": true,
+    "price": 229,
+    "rating": 4.6,
+    "desc": "Black lentils slow-cooked overnight with butter and cream."
+  },
+  {
+    "id": 7,
+    "name": "Rogan Josh",
+    "category": "main",
+    "veg": false,
+    "price": 369,
+    "rating": 4.5,
+    "desc": "Kashmiri-style mutton curry, slow braised with aromatic whole spices."
+  },
+  {
+    "id": 8,
+    "name": "Hyderabadi Chicken Biryani",
+    "category": "biryani",
+    "veg": false,
+    "price": 319,
+    "rating": 4.8,
+    "desc": "Long-grain basmati dum-cooked with marinated chicken & saffron."
+  },
+  {
+    "id": 9,
+    "name": "Veg Dum Biryani",
+    "category": "biryani",
+    "veg": true,
+    "price": 259,
+    "rating": 4.5,
+    "desc": "Seasonal vegetables and paneer, layered and dum-cooked with fragrant rice."
+  },
+  {
+    "id": 10,
+    "name": "Jeera Rice",
+    "category": "biryani",
+    "veg": true,
+    "price": 149,
+    "rating": 4.3,
+    "desc": "Basmati rice tempered with roasted cumin & ghee."
+  },
+  {
+    "id": 11,
+    "name": "Butter Naan",
+    "category": "breads",
+    "veg": true,
+    "price": 49,
+    "rating": 4.6,
+    "desc": "Classic tandoori naan brushed with butter, soft and pillowy."
+  },
+  {
+    "id": 12,
+    "name": "Garlic Naan",
+    "category": "breads",
+    "veg": true,
+    "price": 59,
+    "rating": 4.7,
+    "desc": "Naan topped with fresh garlic & coriander, straight from the tandoor."
+  },
+  {
+    "id": 13,
+    "name": "Lachha Paratha",
+    "category": "breads",
+    "veg": true,
+    "price": 55,
+    "rating": 4.4,
+    "desc": "Multi-layered whole wheat paratha, crisp on the outside, flaky inside."
+  },
+  {
+    "id": 14,
+    "name": "Chilli Paneer",
+    "category": "chinese",
+    "veg": true,
+    "price": 259,
+    "rating": 4.5,
+    "desc": "Crisp paneer tossed in a tangy Indo-Chinese chilli-garlic sauce."
+  },
+  {
+    "id": 15,
+    "name": "Chicken Manchurian",
+    "category": "chinese",
+    "veg": false,
+    "price": 289,
+    "rating": 4.6,
+    "desc": "Fried chicken tossed in a bold soy-garlic Manchurian sauce."
+  },
+  {
+    "id": 16,
+    "name": "Veg Hakka Noodles",
+    "category": "chinese",
+    "veg": true,
+    "price": 199,
+    "rating": 4.3,
+    "desc": "Stir-fried noodles with crunchy vegetables and a hint of soy."
+  },
+  {
+    "id": 17,
+    "name": "Mango Lassi",
+    "category": "beverages",
+    "veg": true,
+    "price": 99,
+    "rating": 4.7,
+    "desc": "Thick, chilled yogurt shake blended with Alphonso mango pulp."
+  },
+  {
+    "id": 18,
+    "name": "Masala Chaas",
+    "category": "beverages",
+    "veg": true,
+    "price": 59,
+    "rating": 4.4,
+    "desc": "Spiced buttermilk with roasted cumin, mint and curry leaves."
+  },
+  {
+    "id": 19,
+    "name": "Fresh Lime Soda",
+    "category": "beverages",
+    "veg": true,
+    "price": 69,
+    "rating": 4.2,
+    "desc": "Sweet, salted or mixed — a refreshing citrus fizz."
+  },
+  {
+    "id": 20,
+    "name": "Gulab Jamun (2 pc)",
+    "category": "desserts",
+    "veg": true,
+    "price": 89,
+    "rating": 4.8,
+    "desc": "Soft milk-solid dumplings soaked in rose-cardamom sugar syrup."
+  },
+  {
+    "id": 21,
+    "name": "Kesar Phirni",
+    "category": "desserts",
+    "veg": true,
+    "price": 109,
+    "rating": 4.6,
+    "desc": "Ground rice pudding set in earthen bowls, flavoured with saffron."
+  },
+  {
+    "id": 22,
+    "name": "Gajar Ka Halwa",
+    "category": "desserts",
+    "veg": true,
+    "price": 119,
+    "rating": 4.5,
+    "desc": "Slow-cooked grated carrots with milk, ghee & dry fruits."
+  },
+  {
+    "id": 23,
+    "name": "Thali Combo (Veg)",
+    "category": "combos",
+    "veg": true,
+    "price": 249,
+    "rating": 4.7,
+    "desc": "Dal, paneer sabzi, rice, 2 rotis, salad & dessert — the full experience."
+  },
+  {
+    "id": 24,
+    "name": "Thali Combo (Non-Veg)",
+    "category": "combos",
+    "veg": false,
+    "price": 329,
+    "rating": 4.8,
+    "desc": "Chicken curry, dal, rice, 2 rotis, salad & dessert."
+  },
+  {
+    "id": 25,
+    "name": "Chicken 65",
+    "category": "starters",
+    "veg": false,
+    "price": 269,
+    "rating": 4.6,
+    "desc": "Spicy, deep-fried chicken bites tempered with curry leaves & red chillies."
+  },
+  {
+    "id": 26,
+    "name": "Hara Bhara Kabab",
+    "category": "starters",
+    "veg": true,
+    "price": 219,
+    "rating": 4.4,
+    "desc": "Pan-seared spinach & green pea patties with a crisp golden crust."
+  },
+  {
+    "id": 27,
+    "name": "Amritsari Fish Tikka",
+    "category": "starters",
+    "veg": false,
+    "price": 329,
+    "rating": 4.7,
+    "desc": "Basa fillets marinated in gram flour & carom seeds, tandoor-grilled."
+  },
+  {
+    "id": 28,
+    "name": "Onion Bhaji",
+    "category": "starters",
+    "veg": true,
+    "price": 149,
+    "rating": 4.3,
+    "desc": "Crispy onion fritters spiced with ajwain, served with tamarind chutney."
+  },
+  {
+    "id": 29,
+    "name": "Kadai Paneer",
+    "category": "main",
+    "veg": true,
+    "price": 309,
+    "rating": 4.6,
+    "desc": "Paneer & bell peppers tossed in a coarsely-ground kadai masala."
+  },
+  {
+    "id": 30,
+    "name": "Malai Kofta",
+    "category": "main",
+    "veg": true,
+    "price": 289,
+    "rating": 4.7,
+    "desc": "Deep-fried paneer & potato dumplings in a creamy cashew gravy."
+  },
+  {
+    "id": 31,
+    "name": "Palak Paneer",
+    "category": "main",
+    "veg": true,
+    "price": 279,
+    "rating": 4.6,
+    "desc": "Paneer cubes simmered in a smooth, mildly-spiced spinach puree."
+  },
+  {
+    "id": 32,
+    "name": "Chicken Curry",
+    "category": "main",
+    "veg": false,
+    "price": 319,
+    "rating": 4.6,
+    "desc": "Home-style chicken curry slow-cooked with onion-tomato masala."
+  },
+  {
+    "id": 33,
+    "name": "Egg Biryani",
+    "category": "biryani",
+    "veg": false,
+    "price": 239,
+    "rating": 4.4,
+    "desc": "Fragrant dum biryani layered with spiced boiled eggs."
+  },
+  {
+    "id": 34,
+    "name": "Prawn Biryani",
+    "category": "biryani",
+    "veg": false,
+    "price": 359,
+    "rating": 4.7,
+    "desc": "Coastal-style biryani with juicy prawns and toasted spices."
+  },
+  {
+    "id": 35,
+    "name": "Steamed Basmati Rice",
+    "category": "biryani",
+    "veg": true,
+    "price": 99,
+    "rating": 4.2,
+    "desc": "Plain steamed long-grain basmati, the perfect curry companion."
+  },
+  {
+    "id": 36,
+    "name": "Missi Roti",
+    "category": "breads",
+    "veg": true,
+    "price": 45,
+    "rating": 4.3,
+    "desc": "Rustic gram-flour flatbread spiced with ajwain & coriander."
+  },
+  {
+    "id": 37,
+    "name": "Amritsari Kulcha",
+    "category": "breads",
+    "veg": true,
+    "price": 65,
+    "rating": 4.6,
+    "desc": "Stuffed potato-onion kulcha, baked in the tandoor, brushed with butter."
+  },
+  {
+    "id": 38,
+    "name": "Roomali Roti",
+    "category": "breads",
+    "veg": true,
+    "price": 39,
+    "rating": 4.2,
+    "desc": "Paper-thin handkerchief bread, soft and light."
+  },
+  {
+    "id": 39,
+    "name": "Veg Manchurian (Gravy)",
+    "category": "chinese",
+    "veg": true,
+    "price": 219,
+    "rating": 4.4,
+    "desc": "Crisp vegetable dumplings tossed in a tangy soy-garlic gravy."
+  },
+  {
+    "id": 40,
+    "name": "Schezwan Fried Rice",
+    "category": "chinese",
+    "veg": true,
+    "price": 209,
+    "rating": 4.5,
+    "desc": "Wok-tossed rice in a fiery Schezwan sauce with crunchy vegetables."
+  },
+  {
+    "id": 41,
+    "name": "Crispy Spring Rolls",
+    "category": "chinese",
+    "veg": true,
+    "price": 189,
+    "rating": 4.3,
+    "desc": "Golden-fried rolls stuffed with cabbage, carrot & glass noodles."
+  },
+  {
+    "id": 42,
+    "name": "Cold Coffee",
+    "category": "beverages",
+    "veg": true,
+    "price": 119,
+    "rating": 4.6,
+    "desc": "Chilled, blended coffee topped with a scoop of ice cream."
+  },
+  {
+    "id": 43,
+    "name": "Sweet Lassi",
+    "category": "beverages",
+    "veg": true,
+    "price": 89,
+    "rating": 4.5,
+    "desc": "Classic thick yogurt lassi, lightly sweetened and chilled."
+  },
+  {
+    "id": 44,
+    "name": "Virgin Mojito",
+    "category": "beverages",
+    "veg": true,
+    "price": 109,
+    "rating": 4.4,
+    "desc": "Fresh mint & lime muddled with soda over crushed ice."
+  },
+  {
+    "id": 45,
+    "name": "Rasmalai (2 pc)",
+    "category": "desserts",
+    "veg": true,
+    "price": 99,
+    "rating": 4.7,
+    "desc": "Soft cottage-cheese discs soaked in saffron-cardamom milk."
+  },
+  {
+    "id": 46,
+    "name": "Moong Dal Halwa",
+    "category": "desserts",
+    "veg": true,
+    "price": 129,
+    "rating": 4.5,
+    "desc": "Slow-roasted lentil halwa rich with ghee and dry fruits."
+  },
+  {
+    "id": 47,
+    "name": "Vanilla Ice Cream Sundae",
+    "category": "desserts",
+    "veg": true,
+    "price": 109,
+    "rating": 4.4,
+    "desc": "Vanilla scoops with chocolate sauce, nuts & a wafer stick."
+  },
+  {
+    "id": 48,
+    "name": "Family Feast Combo (4 pax)",
+    "category": "combos",
+    "veg": false,
+    "price": 899,
+    "rating": 4.8,
+    "desc": "2 starters, butter chicken, dal makhani, biryani, breads & dessert."
+  },
+  {
+    "id": 49,
+    "name": "Kids Combo",
+    "category": "combos",
+    "veg": true,
+    "price": 179,
+    "rating": 4.5,
+    "desc": "Mini paneer tikka, fries, garlic bread & a chocolate brownie."
+  }
+]
