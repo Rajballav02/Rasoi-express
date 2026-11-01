@@ -1,5 +1,14 @@
 node_modules/
-db/rasoi.db
-db/rasoi.db-shm
-db/rasoi.db-wal
 .env
+.env.*
+!.env.example
+
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
+.DS_Store
