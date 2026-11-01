@@ -1,9 +1,9 @@
-/* ===========================================================
-   Rasoi Express — SQLite Database Setup
+﻿/* ===========================================================
+   Rasoi Express â€” SQLite Database Setup
    Creates the tables (if they don't exist) and seeds them with
    the original menu data the first time the app runs.
 
-   Uses Node.js's BUILT-IN "node:sqlite" module (DatabaseSync) —
+   Uses Node.js's BUILT-IN "node:sqlite" module (DatabaseSync) â€”
    ships inside Node.js itself, so there is NO native addon to
    compile and NO prebuilt-binary lookup. This is what makes it
    work on Node.js 24 without Visual Studio / node-gyp.
@@ -13,11 +13,11 @@ const path = require("path");
 const fs = require("fs");
 const { DatabaseSync } = require("node:sqlite");
 
-const DB_PATH = path.join(__dirname, "rasoi.db");
+const DB_PATH = process.env.DB_PATH || path.join(__dirname, "rasoi.db");
 const db = new DatabaseSync(DB_PATH);
 
 // node:sqlite has no db.pragma() helper (that was a better-sqlite3-only
-// convenience method) — pragmas are just run as plain SQL via exec().
+// convenience method) â€” pragmas are just run as plain SQL via exec().
 db.exec("PRAGMA journal_mode = WAL");
 db.exec("PRAGMA foreign_keys = ON");
 
@@ -167,4 +167,5 @@ function seedCouponsIfEmpty() {
 seedCouponsIfEmpty();
 
 module.exports = db;
+
 
